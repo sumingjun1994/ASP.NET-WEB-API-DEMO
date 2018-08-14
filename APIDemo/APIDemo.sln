@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeDataAccess", "Emplo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewWebApplication", "NewWebApplication\NewWebApplication.csproj", "{A1C845E0-2EBD-4B7C-9C40-B00C0BD6CC01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegatePractice", "IntegatePractice\IntegatePractice.csproj", "{6DD9C511-8246-45B5-85B5-925DDB4204A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A1C845E0-2EBD-4B7C-9C40-B00C0BD6CC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1C845E0-2EBD-4B7C-9C40-B00C0BD6CC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1C845E0-2EBD-4B7C-9C40-B00C0BD6CC01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD9C511-8246-45B5-85B5-925DDB4204A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD9C511-8246-45B5-85B5-925DDB4204A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD9C511-8246-45B5-85B5-925DDB4204A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD9C511-8246-45B5-85B5-925DDB4204A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
