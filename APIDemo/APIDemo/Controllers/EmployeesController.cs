@@ -1,7 +1,9 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Threading;
 using System.Web.Http;
 using EmployeeDataAccess;
 using  System.Web.Http.Cors;
@@ -9,12 +11,15 @@ using  System.Web.Http.Cors;
 namespace APIDemo.Controllers
 {
 
-    //[EnableCorsAttribute("*","*","*")] --添加跨域特性控制
+    [EnableCorsAttribute("*","*","*")] //--添加跨域特性控制
     public class EmployeesController : ApiController
     {
         //[DisableCors] 禁止跨域访问
+        [BasicAuthenticationAttribute]
         public HttpResponseMessage Get(string gender = "ALL")
         {
+            //string userName = Thread.CurrentPrincipal.Identity.Name;
+
             using (var entities = new EmployeeDBEntities())
             {
                 switch (gender.ToLower())

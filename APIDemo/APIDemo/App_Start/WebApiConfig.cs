@@ -25,8 +25,6 @@ namespace APIDemo
                 defaults: new { id = RouteParameter.Optional }
             );
 
-            config.Formatters.Remove(config.Formatters.XmlFormatter);
-
             //去掉XML数据格式
             /* config.Formatters.Remove(config.Formatters.XmlFormatter);*/
 
@@ -45,12 +43,13 @@ namespace APIDemo
             //var jsonpFormatters = new JsonpMediaTypeFormatter(config.Formatters.JsonFormatter);
             //config.Formatters.Insert(0,jsonpFormatters);
 
-            /*
+            /*,
              * 功能：Cross跨域请求
              * instanll-package Microsoft.AspNet.WebApi.Cors
              */
             //EnableCorsAttribute enableCorsAttribute=new EnableCorsAttribute("*","*","*");
             //config.EnableCors(enableCorsAttribute);
+            config.EnableCors();
         }
     }
 }

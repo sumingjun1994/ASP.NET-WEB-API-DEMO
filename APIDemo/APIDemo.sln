@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewWebApplication", "NewWeb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegatePractice", "IntegatePractice\IntegatePractice.csproj", "{6DD9C511-8246-45B5-85B5-925DDB4204A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeService", "EmployeeService\EmployeeService.csproj", "{768EF559-F60E-42AA-BCBD-C9868B065DF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessAndThread", "Thread\ProcessAndThread.csproj", "{4DBB6C1E-39F3-4EBF-8367-597FC6CED190}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{6DD9C511-8246-45B5-85B5-925DDB4204A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DD9C511-8246-45B5-85B5-925DDB4204A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DD9C511-8246-45B5-85B5-925DDB4204A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{768EF559-F60E-42AA-BCBD-C9868B065DF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{768EF559-F60E-42AA-BCBD-C9868B065DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{768EF559-F60E-42AA-BCBD-C9868B065DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{768EF559-F60E-42AA-BCBD-C9868B065DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DBB6C1E-39F3-4EBF-8367-597FC6CED190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DBB6C1E-39F3-4EBF-8367-597FC6CED190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DBB6C1E-39F3-4EBF-8367-597FC6CED190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DBB6C1E-39F3-4EBF-8367-597FC6CED190}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
